@@ -1,0 +1,358 @@
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+
+}
+body{
+    background: white;
+    margin: 0;
+    font-family: "Lato-light";
+
+}
+a{
+    text-decoration: none
+}
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-size: 17px;
+    margin: 0;
+    color: #a8a8a8;    
+    text-transform: uppercase;
+    padding: 15px 0;
+    text-align: center;
+    background: white;
+    font-weight: bolder
+}
+#corpolista{
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px 5px;
+    background: white;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+}
+#corpolista .lista{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    transition: border 0.3s ease-in-out;
+    overflow: hidden;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    border: 1px solid #a8a8a8;
+    position: relative;
+}
+#corpolista .lista:hover{
+    border: 1px solid #384661
+}
+#corpolista .lista:hover #escreverresult{
+    display: block
+}
+.lista .nome{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 5px 0;
+    color: #384661;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.lista .disciplina{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-family: "Lato-light";
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    outline-color: #3acb9b; 
+    color: #a8a8a8;
+    font-size: 13px;
+    line-height: 30px
+}
+.lista .corpodesceArqu{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 0;
+    border: 1px solid #eee;
+    border-left: 10px solid #384661;
+}
+.lista .arquivo{
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 5px 0;
+    padding: 0;
+    overflow: hidden;
+    width: 350px;
+
+}
+.lista .descricao{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #a8a8a8;
+    text-align: justify;
+    margin-bottom: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.lista .tipoarquivo{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -2px;
+    height: 50px;
+    float: left;
+    color: #a8a8a8;
+    padding: 0 5px;
+    border-right: 1px solid #eee;
+    margin: 7.5px 0;
+    line-height: 50px;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bolder
+}
+.lista .nomearquivo{
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    width: 200px;
+    color: #a8a8a8;
+    line-height: 50px;
+    background: white;
+    margin: 7.5px 0;
+    float: left;
+
+}
+.lista .download{
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+    color: white;
+    float: left;
+    width: 50px;
+    transition: transform 0.2s ease-out;
+    margin: 7.5px 0;
+}
+.lista .download img{
+    margin: 7.5px 0;
+    width: 35px;
+
+}
+.lista .download:hover{
+    transform: scale(1.07);
+}
+.lista .delete{
+    height: 30px; 
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    background-color: #9e005d;
+    background-image: url("../img/delete-2-xxl2.png");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 10px;
+    transition: transform 0.2s ease-out;
+    margin-bottom: 10px
+
+}
+.lista .delete:hover{
+    transform: scale(1.07);
+
+}
+.lista a{
+    font-weight: bold;
+    color: white
+}
+.lista .alterar{
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffa607;
+    background-image: url("../img/copy-icon-47742.png");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 10px;
+    transition: transform 0.2s ease-out;
+    margin-bottom: 10px
+
+
+}
+.lista .alterar:hover{
+    transform: scale(1.07);
+
+}
+
+#escreverresult{
+    text-align: center;
+    border: none;
+    width: 300px;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0 auto;
+    color: white;
+    background: #384661;
+    border-radius: 90px 90px 0 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+#corpocadastroresult{
+    border-top: 1px solid #384661;
+    border-bottom: 1px solid #384661;
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    transition: height 0.3s linear
+}
+.lista:hover #corpocadastroresult{
+    height: 200px;
+    
+}
+#corpocadastroresult2{
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: auto;
+    position: relative;
+    height: 200px
+}
+#corpocadastroresult #excluirResultado{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 5px;
+    top: 10px;
+    z-index: 5;
+    transition: transform 0.3s ease-out;
+}
+#corpocadastroresult #excluirResultado:hover{
+    transform: scale(1.05);
+    cursor: pointer
+}
+#corpocadastroresult #excluirResultado img{
+    width: 20px;
+    height: 20px;
+}
+
+#corpocadastroresult header{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 0
+}
+#corpocadastroresult header img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+#corpocadastroresult header h3{
+    font-size: 10px;
+    margin: 0;
+    color: #a8a8a8;
+    margin-left: 10px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+#formResult h4{
+    position: relative;
+    width: 90%; 
+    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    color: #a8a8a8;
+    font-weight: normal;
+    margin-top: 5px;
+
+}
+
+#formResult span {
+    margin: 0;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+    overflow: hidden
+}
+
+
+#formResult textarea{
+    border: 1px solid #eee;
+    width: 600px;
+    height: 100px;
+    margin-left: 25px;
+    resize: none;
+    outline-color: #384661;
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Lato-light";
+
+
+}
+#formResult #botaosubmit{
+    border: 1px solid #eee;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    background-color: #eee;
+    color: white;
+    font-weight: bold;
+    background: #384661;
+
+}
+#formResult #botaosubmit:hover{
+    cursor: pointer
+}
+
+#mensagemparecer{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: justify;
+    background: #f8f8f8;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    color: #384661;
+}
+

@@ -1,0 +1,60 @@
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+}
+body{
+    font-family: "Lato-light";
+    background: white
+}
+#formBusca{
+    text-align: center;
+    width: 450px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    margin-top: 200px;
+    transition: border 0.3s ease-in-out;
+    background: white;
+    border: 1px solid #eee    ;
+    padding-bottom: 0
+}
+#formBusca label{
+    color: #a8a8a8
+}
+#formBusca input{
+    background: #f8f8f8;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: none
+}
+#formBusca input{
+    outline: none;
+    color: #a8a8a8
+}
+#formBusca input[type='submit']{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    background: #384661;
+    color: white;
+    border: none;
+    font-family: "Lato-light";
+
+}
+#formBusca:hover{
+    border: 1px solid #384661
+}

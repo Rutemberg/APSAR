@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/10/2016, 09:12:45
+    Author     : BREGUEDO
+*/
+
+este é o paginas.css
+
+
+
+*{
+    margin: 0;
+    /*padding: 0;*/
+}
+
+#container{
+    margin: auto;
+    width: 1024px;
+    background-color: #87AAFF;
+}
+
+.texto{
+    background-color: #87AAFF;
+    margin-left: 20px;
+    color: black;
+    font-family: arial;
+}
+
+h1{
+  
+    margin-left: 400px;
+    margin-top: 10px;
+    text-transform: uppercase;/*deixa o texto em caixa alta(como funciona)*/
+}
+
+.btn{
+    height: 30px;
+}

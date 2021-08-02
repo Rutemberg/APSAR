@@ -1,0 +1,130 @@
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+}
+body{
+
+    font-family: 'Lato-light';
+    padding: 0;
+    margin: 0;
+    background: white
+}
+
+.corpoformulario{
+    background: white;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 50px;
+}
+#formalterar{
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+#formalterar header{
+    height: 50px;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    background: #f8f8f8;
+    z-index: 2
+}
+/*.triangulo{
+    width: 0;
+    height: 0;
+    border: 13px solid;
+    margin: 0 auto;
+    border-color: #f8f8f8 transparent transparent transparent;
+}*/
+#formalterar header img{
+    height: 100%;
+    float: left;
+    margin-left: 10px
+}
+#formalterar header h2{
+    font-size: 17px;
+    float: left;
+    position: absolute;
+    margin: 0;
+    color: #a8a8a8;    
+    bottom: 15px;
+    left: 80px;
+    text-transform: uppercase;
+
+}
+
+.formesquerdo{
+    width: 300px;
+    float: left;
+    padding: 40px;
+    margin: 5px;
+
+
+}
+.formdireito{
+    width: 300px;
+    float: right;    
+    padding: 40px;   
+    margin: 5px;
+
+}
+
+#formalterar input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #a8a8a8;
+    font-family: "Lato-light";
+    outline-color: #f5b041
+}
+#formalterar select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #a8a8a8;
+    font-family: "Lato-light";
+    outline-color: #f5b041
+}
+
+
+#formalterar label{
+    font-size: 15px;
+    font-family: "Lato-light";
+    color: #a8a8a8;
+    font-weight: bolder
+
+}
+#formalterar input[type='submit']{
+    background: #f5b041;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+        font-family: 'Lato-Regular';
+
+}
+
+
+#formalterar #inputQualificacoes{
+    width: 100%;   
+    height: 90px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: 'Lato-Regular';
+    outline-color: #f5b041;
+    color: #a8a8a8
+
+}

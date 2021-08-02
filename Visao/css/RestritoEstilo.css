@@ -1,0 +1,213 @@
+
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+}
+body{
+    font-family: 'Lato-light';
+    background: #f8f8f8;
+    margin: 0
+}
+#menuesquerdo{
+    float: left;
+    height: 100%;
+    width: 300px;
+    background: radial-gradient(circle, #4b5f83, #2e3b51); /* Standard syntax */
+    position: relative
+}
+
+#descricaolog{
+    height: 80px;
+    list-style: none;
+    margin-right: 10px;
+    width: 300px;
+    padding: 0
+}
+#descricaolog li{
+    float: right;
+}
+#descricaolog .imglogin{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    text-align: center;
+        
+}
+#descricaolog .imglogin img{
+    height: auto;
+    width: 70px;
+}
+#descricaolog .usuario{
+    height: 10px;
+    width: 100px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+    color: #eee
+        
+}
+#descricaolog .logadocomo{
+    height: 30px;
+    width: 200px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+    color: #eee;
+    font-weight: bolder
+        
+}
+#descricaolog .disciplina{
+    width: 200px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #eee
+        
+}
+
+
+.menu{
+    padding: 0;
+    margin-top: 130px;
+    overflow: hidden;
+}
+.menu li{
+    text-align: right;
+    display: inline-block;
+    color:#eee;
+    font-size: 17px;
+    cursor: pointer;
+    float: right;
+    padding: 1px 0;
+    padding-right: 10px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-out;
+    font-weight: bolder
+
+}
+.menu li:hover{
+
+    color: white
+
+}
+.submenu{
+    width: 200px;
+    margin: 0;
+    background: white;
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+    height: 99.1%;
+    top: 0;
+    padding: 0;
+    display: none;
+    border-right: 2px solid #4b5f83;
+    border-top: 2px solid #4b5f83;
+    border-bottom: 2px solid #4b5f83
+}
+
+
+.submenu li{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    font-size: 11px;
+    padding: 15px 0;
+    cursor: pointer;
+    background: none;
+    border-bottom: 1px solid #eee;
+    text-transform: uppercase;
+    transition: border 0.2s ease-out;
+    font-weight: bolder
+
+}
+.intenssubmenu{
+    width: 180px;
+    margin: 0 auto;
+    height: 200px;
+    top: 50%;
+    position: absolute;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -90px;
+
+}
+.submenu li a{
+    color:#4b5f83;
+    text-decoration: none;
+
+}
+.submenu li:hover{
+    border-bottom: 1px solid #4b5f83
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+#conteudodireito{
+    width: calc(100% - 300px);
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;    
+
+    overflow: hidden
+}
+#conteudodireito img{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    margin-left: -50px;
+}
+#conteudoiframe{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
+    display: none;
+    overflow: hidden
+
+}
+
+.menuusuariologado{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.carregaratividades{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+    color: white;
+    font-weight: bolder
+}
+.carregaratividades .icon{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/important-button-icon-clip-art.png");
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}

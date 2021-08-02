@@ -1,0 +1,242 @@
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+
+}
+
+
+body{
+
+    font-family: 'Lato-light';
+    padding: 0;
+    margin: 0;
+    background: white
+}
+
+#corpoform{
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -350px
+
+}
+#corpoform header{
+    height: 50px;
+    margin: 0 auto;
+    width: 100%;
+    background: #f8f8f8;
+    position: relative
+}
+
+#corpoform header img{
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+#corpoform header h2{
+    font-size: 15px;
+    float: left;
+    position: absolute;
+    margin: 0;
+    color: #a8a8a8;    
+    bottom: 15px;
+    left: 80px;
+    text-transform: uppercase;
+}
+#corpoform form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#corpoform form input{
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    margin-bottom: 5px;
+    font-family: "Lato-light";
+    outline-color: #3acb9b;
+    font-weight: bolder;
+    margin-top: 10px
+}
+#corpoform form label{
+    margin: 0 auto;
+    border: none;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    margin-bottom: 5px;
+    font-family: "Lato-light";
+    outline: none;
+}
+#corpoform form textArea{
+    font-family: "Lato-light";
+    border: 1px solid #eee;
+    width: 495px;
+    text-align: justify;
+    height: 70px;
+    font-size: 15px;
+    resize:none;
+    color: #a8a8a8;
+    outline-color: #3acb9b;
+}
+
+
+#diagnosticoaluno{
+    width: 290px;
+    padding: 15px 0;
+    float: left;
+    overflow: hidden
+}
+.corpodiagnostico{
+    width: 290px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.corpodiagnostico .cadastrararquivo{
+    height: 50px;
+    width: 250px;
+    color: #a8a8a8;
+    background: white;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cadastrararquivo #labelarquivo{
+    height: 50px;
+    position: absolute;
+    width: 305px;
+    left: -35px;
+    top: 0;
+    color: #384661;
+    text-align: center;
+    line-height: 25px;
+    z-index: 3;
+    border: none
+}
+.cadastrararquivo #arquivo{
+    font-family: "Lato-Light";
+    position: absolute;
+    width: 305px;
+    height: 25px;
+    top: 25px;
+    left: -60px;
+    outline: none;
+    margin:0;
+    color: #a8a8a8;
+    border: none;
+    font-size: 13px;
+    font-weight: normal;
+
+
+}
+.cadastrararquivo .copbririnput{
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: -52px;
+    width: 105px;
+    background: white;
+    background-image: url("../img/ftp.png");
+    background-position: right center;
+    background-size: 40px auto;
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+}
+#corpoform form input[type="submit"]{
+    float: right;
+    width: 150px;
+    height: 80px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-out;
+    border: none;
+    background: none;
+    background-image: url("../img/save.png");
+    background-size: 35px auto;
+    background-position: center left;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    outline: none;
+    margin-top: 0
+
+}
+#corpoform form select{
+    position: absolute;
+    right: 0;
+    top: 51px;
+    font-family: "Lato-light";
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline-color: #3acb9b; 
+    color: #a8a8a8;
+
+}
+#corpoform form #labeldisciplina{
+    position: absolute;
+    right: 152px;
+    top: 51px;
+    height: 30px;
+    border: none;
+    color: #a8a8a8;
+    margin: 0;
+    border: none;
+    width: 100px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Lato-light";
+    outline: none;
+    line-height: 30px
+
+}
+#corpoform #submitalterar{
+    float: right;
+    width: 150px;
+    height: 80px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-out;
+    border: none;
+    background: none;
+    background-image: url("../img/copy-icon-4774.png");
+    background-size: 35px auto;
+    background-position: center left;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    outline: none;
+}
+#corpoform form input[type="submit"]:hover{
+    opacity: 1
+}
+#corpoform footer{
+    background: #f8f8f8;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}

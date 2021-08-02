@@ -1,0 +1,245 @@
+@font-face {
+
+    font-family: "Lato-Regular";
+    src: url("../Fonte/Lato-Regular.ttf") format("truetype");
+
+}
+@font-face {
+
+    font-family: "Lato-light";
+    src: url("../Fonte/Lato-Light.ttf") format("truetype");
+
+
+}
+
+
+body{
+
+    font-family: 'Lato-light';
+    padding: 0;
+    margin: 0;
+    background: white
+}
+.corpoformulario{
+    background: white;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 50px;
+    width: 100%;
+}
+#formCadastro{
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+#formCadastro header{
+    height: 50px;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    background: #f8f8f8;
+    z-index: 2
+
+
+}
+
+#formCadastro header img{
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+#formCadastro header h2{
+    font-size: 17px;
+    float: left;
+    position: absolute;
+    margin: 0;
+    color: #a8a8a8;    
+    bottom: 15px;
+    left: 80px;
+    text-transform: uppercase;
+}
+
+
+.formesquerdo{
+    width: 25%;
+    display: inline-block;
+    padding: 30px;
+    margin: 5px;
+    overflow: hidden;
+    height: 510px;
+
+}
+.formcentro{
+    width: 25%;
+    display: inline-block;
+    padding: 30px;
+    margin: 5px;
+    overflow: hidden;
+    height: 510px;
+
+
+
+
+}
+.formdireito{
+    width: 25%;
+    display: inline-block;
+    padding: 30px;   
+    margin: 5px;
+    overflow: hidden;
+    height: 510px;
+
+
+}
+
+
+#formCadastro input{
+    font-family: "Lato-light";
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline-color: #3acb9b; 
+    color: #212121;
+    font-weight: bolder
+
+}
+#formCadastro select{
+    font-family: "Lato-light";
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline-color: #3acb9b; 
+    color: #a8a8a8;
+
+}
+#formCadastro label{
+    font-size: 15px;
+    font-family: "Lato-light";
+    color: #a8a8a8;
+    font-weight: bolder
+}
+#formCadastro input[type='radio']{
+    width: auto;
+    height: auto;
+    font-family: 'Lato-light';
+}
+#formCadastro input[type='submit']{
+    background:#3acb9b;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    font-family: 'Lato-Regular';
+}
+#formCadastro input[type='reset']{
+    margin-top: 50px;
+    background: #e74c3c;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    font-family: 'Lato-Regular';
+
+}
+#formCadastro input[type='radio']{
+    font-size: 18px;
+    font-family: 'Lato-light';
+
+}
+#formCadastro fieldset{
+    border: 1px solid #ccc
+
+}
+
+#inputQualificacoes{
+    width: 100%;   
+    height: 100px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline-color: #3acb9b; 
+    color: #a8a8a8;
+    resize: none
+}
+
+
+.error{
+    float: right;
+    color:#ce3f3f !important;
+    font-style:italic;
+    font-size: 10px!important;
+}
+
+
+
+
+
+
+
+#diagnosticoaluno{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: white;
+    background: #f8f8f8;
+    padding: 15px 0;
+}
+.corpodiagnostico{
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.corpodiagnostico .cadastrararquivo{
+    height: 50px;
+    width: 250px;
+    color: #a8a8a8;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.cadastrararquivo label{
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 8px;
+    text-align: center;
+    line-height: 25px;
+    z-index: 3
+}
+.cadastrararquivo #arquivo{
+    font-family: "Lato-Light";
+    position: absolute;
+    width: 305px;
+    height: 25px;
+    top: 33px;
+    left: -63px;
+    outline: none;
+    margin:0;
+    color: #a8a8a8;
+    border: none;
+    font-size: 13px;
+    font-weight: normal;
+
+
+}
+.cadastrararquivo .copbririnput{
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: -52px;
+    width: 105px;
+    background: #f8f8f8;
+    background-image: url("../img/ftp.png");
+    background-position: right center;
+    background-size: 40px auto;
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+}
